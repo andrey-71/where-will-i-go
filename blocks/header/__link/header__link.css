@@ -1,0 +1,12 @@
+.header__link{
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 420px){
+    .header__link{
+        flex-direction: column;
+    }
+  }
