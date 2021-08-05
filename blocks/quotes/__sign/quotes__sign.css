@@ -1,0 +1,13 @@
+.quotes__sign {
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fecda7;
+}

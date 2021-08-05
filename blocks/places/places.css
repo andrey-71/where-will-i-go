@@ -1,0 +1,13 @@
+.places{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 540px);
+}
+
+@media screen and (max-width: 550px){
+    .places{
+        grid-template-columns: minmax(320px, 1fr);
+        grid-template-rows: repeat(6, minmax(320px, 1fr));
+    }
+  }
