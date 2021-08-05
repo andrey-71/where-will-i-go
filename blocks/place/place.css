@@ -1,0 +1,20 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image paragraph";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "paragraph";
+  }
+}

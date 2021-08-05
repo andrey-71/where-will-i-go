@@ -1,13 +1,12 @@
-.quotes__author {
+.section__sign {
   margin: 0;
-  padding-bottom: 25px;
   font-size: 12px;
-  line-height: 1.25;
   text-transform: uppercase;
+  color: #fecda7;
 }
 
 @media screen and (max-width: 767px) {
-  .quotes__author {
-    font-size: 10px;
+  .section__sign {
+    font-size: 8px;
   }
 }

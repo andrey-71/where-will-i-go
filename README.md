@@ -1,13 +1,19 @@
 # Where will I go?
 
 Teamwork-01 (29-Olive)
-**[Проект на GitHub Pages]()**
+**[Проект на GitHub Pages](https://andrey-71.github.io/where-will-i-go/index.html)**
 
 ## Описание проекта:
-1.
+1. Данный проект посвящен теме путешествий.
 
 2. В настоящем проекте использованы:
+* Методология БЭМ;
+* Файловая структура проекта по Nested БЭМ;
+* CSS Flexbox;
+* CSS Grid Layout;
+* Проект адаптирован и корректно отображается на разрешениях экрана от 320px.
 
-
-
+### Авторы:
+* Pavel M.
+* Andrey G.
 

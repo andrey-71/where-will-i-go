@@ -1,3 +1,33 @@
 .quotes {
-  padding: 130px 70px 120px;
+  padding: 140px 70px 120px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .quotes {
+    padding: 120px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .quotes {
+    padding: 80px 40px 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quotes {
+    padding: 60px 20px 120px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .quotes {
+    padding: 40px 15px 60px;
+  }
 }

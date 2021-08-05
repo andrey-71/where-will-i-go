@@ -4,110 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>Место</title>
+    <title>Куда я поеду</title>
   </head>
   <body>
     <div class="page">
       <!--Header-->
-      <header class="header">
-        <ul class="header__link">
-          <li>
-            <a class="header__text" href="#intro">Мечты</a>
-          </li>
-          <li>
-            <a class="header__text" href="#places">Ожидания</a>
-          </li>
-          <li>
-            <a class="header__text" href="#quotes">Реальность</a>
-          </li>
-        </ul>
-        <a class="header__help" href="#">Пожаловаться</a>
+      <header class="header page__header">
+        <nav class="header__navigation">
+          <ul class="header__links">
+            <li>
+              <a class="header__link" href="#intro">Мечты</a>
+            </li>
+            <li>
+              <a class="header__link" href="#places">Ожидания</a>
+            </li>
+            <li>
+              <a class="header__link" href="#quotes">Реальность</a>
+            </li>
+          </ul>
+          <a class="header__help" href="#">Пожаловаться</a>
+        </nav>
+        <div class="header__menu">
+          <span class="header__menu-item"></span>
+        </div>
       </header>
 
       <!--Content-->
-      <main class="content">
+      <main class="content page__content">
         <!--Intro-->
         <section id="intro" class="intro">
-          <div class="intro__text">
-            <p class="intro__subtitle">куда я поеду</p>
-            <h1 class="intro__title">
+          <div class="section content__section">
+            <p class="section__sign">Куда я поеду</p>
+            <h1 class="section__title">
               Куда я&nbsp;поеду сразу, как можно будет куда-то поехать
             </h1>
           </div>
           <img
             src="./images/intro-image.jpg"
-            alt="летим в облоках"
+            alt="Летим в облоках"
             class="intro__image"
           />
         </section>
         <!--Places-->
         <section id="places" class="places">
-          <img
-            class="places__image places__image_position-start"
-            src="./images/places-forest.jpg"
-            alt="лес"
-          />
-          <div class="places__paragraph">
-            <h2 class="places__title">Поеду в лес</h2>
-            <div class="places__info">
-              <p class="places__text">
-                Лес — экологическая система, биоценоз, в которой главной
-                жизненной формой являются деревья.
-              </p>
-              <p class="places__text">
-                Лес — составная часть природы, понятие «лес» можно рассматривать
-                на разных уровнях. В глобальном масштабе — это часть биосферы, в
-                локальном — это может быть насаждение. Леса занимают около трети
-                площади суши.
-              </p>
+          <article class="place">
+            <img
+              class="place__image"
+              src="./images/places-forest.jpg"
+              alt="лес"
+            />
+            <div class="place__paragraph">
+              <h2 class="place__title">Поеду в лес</h2>
+              <div class="place__info">
+                <p class="place__text">
+                  Лес — экологическая система, биоценоз, в которой главной
+                  жизненной формой являются деревья.
+                </p>
+                <p class="place__text">
+                  Лес — составная часть природы, понятие «лес» можно
+                  рассматривать на разных уровнях. В глобальном масштабе — это
+                  часть биосферы, в локальном — это может быть насаждение. Леса
+                  занимают около трети площади суши.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="places__paragraph">
-            <h2 class="places__title">Поеду в горы</h2>
-            <div class="places__info">
-              <p class="places__text">
-                Горные системы занимают 64 % поверхности Азии, 36 % — Северной
-                Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и
-                3 % — Африки. В целом 24 % земной поверхности приходится на
-                горы. 10 % всех людей живёт на территории гор. В горах берёт
-                своё начало большинство рек Земли.
-              </p>
+          </article>
+          <article class="place place_reverse">
+            <img
+              class="place__image"
+              src="./images/places-mountains.jpg"
+              alt="горы"
+            />
+            <div class="place__paragraph">
+              <h2 class="place__title">Поеду в горы</h2>
+              <div class="place__info">
+                <p class="place__text">
+                  Горные системы занимают 64&nbsp;% поверхности Азии,
+                  36&nbsp;%&nbsp;—&nbsp;Северной Америки,
+                  25&nbsp;%&nbsp;—&nbsp;Европы, 22&nbsp;%&nbsp;—&nbsp;Южной
+                  Америки, 17&nbsp;%&nbsp;—&nbsp;Австралии и
+                  3&nbsp;%&nbsp;—&nbsp;Африки. В целом 24&nbsp;% земной
+                  поверхности приходится на горы. 10&nbsp;% всех людей живёт на
+                  территории гор. В горах берёт своё начало большинство рек
+                  Земли.
+                </p>
+              </div>
             </div>
-          </div>
-          <img
-            class="places__image places__image_position-centr"
-            src="./images/places-mountains.jpg"
-            alt="горы"
-          />
-          <img
-            class="places__image places__image_position-end"
-            src="./images/places-black-sea.jpg"
-            alt="море"
-          />
-          <div class="places__paragraph">
-            <h2 class="places__title">Поеду на&nbsp;Чёрное море</h2>
-            <div class="places__info">
-              <p class="places__text">
-                Я уплыву туда, где ни разу я не был, туда, где никто раньше не
-                был. Никто и никогда раньше не был, я уплыву. Я позову тебя
-                смотреть на синее небо и пить по капле синее небо, и падать в
-                это синее небо, я позову.
-              </p>
-              <p class="places__text">
-                Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
-                Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на
-                Чёрное-Чёрное море, на Чёрное-Чёрное море.
-              </p>
-              <p class="places__text">Уеду я.</p>
+          </article>
+          <article class="place">
+            <img
+              class="place__image"
+              src="./images/places-black-sea.jpg"
+              alt="море"
+            />
+            <div class="place__paragraph">
+              <h2 class="place__title">Поеду на&nbsp;Чёрное море</h2>
+              <div class="place__info">
+                <p class="place__text">
+                  Я уплыву туда, где ни разу я не был, туда, где никто раньше не
+                  был. Никто и никогда раньше не был, я уплыву. Я позову тебя
+                  смотреть на синее небо и пить по капле синее небо, и падать в
+                  это синее небо, я позову.
+                </p>
+                <p class="place__text">
+                  Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
+                  Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на
+                  Чёрное-Чёрное море, на Чёрное-Чёрное море.
+                </p>
+                <p class="place__text">Уеду я.</p>
+              </div>
             </div>
-          </div>
+          </article>
         </section>
         <!--Quotes-->
         <section id="quotes" class="quotes">
-          <p class="quotes__sign">Люди</p>
-          <h2 class="quotes__title">
-            Что говорят и говорили люди&nbsp;о&nbsp;путешествиях
-          </h2>
+          <div class="section">
+            <p class="section__sign">Люди</p>
+            <h2 class="section__title">
+              Что говорят и говорили люди&nbsp;о&nbsp;путешествиях
+            </h2>
+          </div>
           <div class="quotes__items">
             <div>
               <h3 class="quotes__author">Иван Бунин</h3>

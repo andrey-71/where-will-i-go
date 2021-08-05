@@ -1,12 +1,12 @@
 .quotes__text {
   margin: 0;
-  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   font-size: 12px;
   letter-spacing: 0.5px;
   line-height: 1.7;
+}
+
+@media screen and (max-width: 767px) {
+  .quotes__text {
+    font-size: 10px;
+  }
 }

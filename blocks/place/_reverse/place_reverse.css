@@ -1,0 +1,11 @@
+.place_reverse {
+  grid-template-areas: "paragraph image";
+}
+
+@media screen and (max-width: 767px) {
+  .place_reverse {
+    grid-template-areas:
+      "image"
+      "paragraph";
+  }
+}

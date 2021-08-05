@@ -1,0 +1,12 @@
+.header__navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 479px) {
+  .header__navigation {
+    display: none;
+  }
+}
