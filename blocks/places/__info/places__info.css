@@ -1,0 +1,9 @@
+.places__info{
+    max-width: 360px;
+}
+
+@media screen and (max-width: 550px){
+    .places__info{
+        max-width: 100%;
+    }
+  }
