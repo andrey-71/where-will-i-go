@@ -15,26 +15,29 @@
   opacity: 0.6;
 }
 
-.header__link::after {
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  content: "";
-  width: 0;
-  height: 2px;
-  background-color: #000;
-  transition: width 0.4s;
-}
+@media screen and (min-width: 480px) {
+  .header__link::after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.4s;
+  }
 
-.header__link:hover::after {
-  width: 100%;
+  .header__link:hover::after {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .header__link {
     display: inline-block;
-    margin: 0 0 30px;
+    margin: 0 0 40px;
     font-size: 18px;
     letter-spacing: 1px;
+    color: #fff;
   }
 }

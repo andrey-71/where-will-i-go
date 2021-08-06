@@ -1,0 +1,14 @@
+.header__menu-item {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  height: 2px;
+  top: 11px;
+  transition: all 0.3s ease 0s;
+}
+
+.header__menu-toggle:checked ~ .header__menu > .header__menu-item {
+  transform: rotate(-45deg);
+  background-color: #fff;
+  top: 11px;
+}
