@@ -3,10 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 479px) {
   .header__navigation {
-    display: none;
+    display: block;
   }
 }

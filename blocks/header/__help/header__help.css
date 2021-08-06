@@ -10,6 +10,10 @@
   transition: opacity 0.4s;
 }
 
+.header__help:hover {
+  opacity: 0.6;
+}
+
 .header__help::after {
   position: absolute;
   left: 0;
@@ -21,10 +25,14 @@
   transition: width 0.4s;
 }
 
-.header__help:hover {
-  opacity: 0.6;
-}
-
 .header__help:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 479px) {
+  .header__help {
+    display: inline-block;
+    margin: 40px 0 0;
+    font-size: 18px;
+  }
 }

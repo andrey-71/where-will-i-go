@@ -11,6 +11,10 @@
   transition: opacity 0.4s;
 }
 
+.header__link:hover {
+  opacity: 0.6;
+}
+
 .header__link::after {
   position: absolute;
   left: 0;
@@ -22,10 +26,15 @@
   transition: width 0.4s;
 }
 
-.header__link:hover {
-  opacity: 0.6;
-}
-
 .header__link:hover::after {
   width: 100%;
+}
+
+@media screen and (max-width: 479px) {
+  .header__link {
+    display: inline-block;
+    margin: 0 0 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
 }

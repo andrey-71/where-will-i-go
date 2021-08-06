@@ -2,7 +2,7 @@
   max-width: 1280px;
   min-width: 320px;
   box-sizing: border-box;
-  padding: 35px 70px 70px;
+  padding: 45px 70px 85px;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,12 +27,8 @@
 
 @media screen and (max-width: 479px) {
   .header {
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 424px) {
-  .header {
+    background-color: #f2f2f2;
+    padding-top: 30px;
     padding-bottom: 70px;
   }
 }
