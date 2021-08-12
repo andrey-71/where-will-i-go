@@ -1,11 +1,5 @@
-.footer {
-  max-width: 1280px;
-  min-width: 320px;
-  height: 630px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fecda7;
+.quotes {
+  padding: 140px 70px 120px;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,25 +9,25 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .footer {
-    height: 550px;
+  .quotes {
+    padding: 120px 60px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .footer {
-    height: 400px;
+  .quotes {
+    padding: 80px 40px 120px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .footer {
-    height: 320px;
+  .quotes {
+    padding: 60px 20px 120px;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer {
-    height: 200px;
+@media screen and (max-width: 424px) {
+  .quotes {
+    padding: 40px 15px 60px;
   }
 }

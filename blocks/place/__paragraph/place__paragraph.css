@@ -1,0 +1,28 @@
+.place__paragraph {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 70px 90px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    display: block;
+    padding: 20px 20px 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .place__paragraph {
+    padding: 10px 15px 45px;
+  }
+}

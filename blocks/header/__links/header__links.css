@@ -1,0 +1,31 @@
+.header__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 479px) {
+  .header__links {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.header__links {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 479px) {
+  .header__links {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    flex-direction: column;
+  }
+}
