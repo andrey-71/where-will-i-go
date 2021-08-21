@@ -30,7 +30,7 @@
               <a class="header__link" href="#quotes">Реальность</a>
             </li>
           </ul>
-          <a class="header__help" href="#">Пожаловаться</a>
+          <a class="header__help" href="#">Ваше путешествие</a>
         </nav>
       </header>
 
@@ -174,6 +174,40 @@
       <footer class="footer page__footer">
         <h2 class="footer__copyright">&copy; 2020</h2>
       </footer>
+
+      <!--Popup-->
+      <div class="popup">
+        <div class="popup__container">
+          <h2 class="popup__title">
+            Предложите свой вариант идеального путешествия
+          </h2>
+          <form class="popup__form" name="form">
+            <input
+              type="text"
+              placeholder="Ваше имя"
+              class="popup__input"
+              name="Имя"
+            />
+            <input
+              type="text"
+              placeholder="Куда поедем"
+              class="popup__input"
+              name="Пункт назначения"
+            />
+            <textarea
+              class="popup__comments"
+              placeholder="Опишите Ваше место"
+              name="Описание"
+            ></textarea>
+            <button class="popup__submit-button" type="submit">
+              Отправить
+            </button>
+          </form>
+          <button class="popup__close" type="button"></button>
+        </div>
+      </div>
     </div>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
