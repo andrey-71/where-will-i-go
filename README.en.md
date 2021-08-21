@@ -2,7 +2,7 @@
 
 Project work created within the framework of teamwork at the faculty of ["Web developer"](https://practicum.yandex.ru/web/?utm_source=yandex&utm_medium=cpc&utm_campaign=Yan_Sch_RF_Webr_Razrab_Des_Intro_460&utm_content=sty_search:s_none:cid_56600998:gid_4359516496:pid_23387311960:aid_9838725511:crid_0:rid_:p_1:pty_premium:mty_syn:mkw_:dty_desktop:cgcid_0:rn_Москва:rid_213&utm_term=разработка%20web&yclid=4769457341696616776) of the educational platform [Yandex.Praktikum](https://practicum.yandex.ru/).
 
-*Выбрать язык:* [RU](https://github.com/andrey-71/how-to-learn/blob/main/README.md)
+*Выбрать язык:* [RU](https://github.com/andrey-71/where-will-i-go/blob/main/README.md)
 
 
 ## Project description:
@@ -50,12 +50,11 @@ This project is dedicated to the topic of travel. The goal of the project is to 
 * Clone the repository:
 
     ```
-    git clone https://github.com/andrey-71/how-to-learn.git
+    git clone https://github.com/andrey-71/where-will-i-go.git
     ```
 
 
 ## Project requirements:
-* Compliance with [layout](./images/readme.md/layout-1280px.md.png);
 * The width of the elements and the margins differ from the layout by no more than `30px` at the control point `1280px`;
 * The markup does not break and there are no horizontal scrolls on the interval from `320px` to infinity;
 * All sections specified in the layout are present;
